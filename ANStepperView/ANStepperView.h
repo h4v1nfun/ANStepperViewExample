@@ -6,7 +6,7 @@
 //  Copyright © 2016 Innovation Makers. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 typedef NS_ENUM(NSUInteger, ANStepperType) {
     ANStepperTypeDefault,
