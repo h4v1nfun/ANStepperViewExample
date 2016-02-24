@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924209F81C7954BF00A2B378 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 924209F71C7954BF00A2B378 /* main.m */; };
+		924209FB1C7954BF00A2B378 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 924209FA1C7954BF00A2B378 /* AppDelegate.m */; };
+		924209FE1C7954BF00A2B378 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 924209FD1C7954BF00A2B378 /* ViewController.m */; };
+		92420A011C7954BF00A2B378 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 924209FF1C7954BF00A2B378 /* Main.storyboard */; };
+		92420A031C7954BF00A2B378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92420A021C7954BF00A2B378 /* Assets.xcassets */; };
+		92420A061C7954BF00A2B378 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92420A041C7954BF00A2B378 /* LaunchScreen.storyboard */; };
+		92420A2C1C7954F100A2B378 /* ANStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92420A2B1C7954F100A2B378 /* ANStepperView.m */; };
+		925084E81C7A8524002E83F0 /* ANStepperViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925084E71C7A8524002E83F0 /* ANStepperViewExampleUITests.m */; };
+		925084F61C7A8649002E83F0 /* ANStepperViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925084F51C7A8649002E83F0 /* ANStepperViewExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925084EA1C7A8524002E83F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924209EB1C7954BF00A2B378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924209F21C7954BF00A2B378;
+			remoteInfo = ANStepperViewExample;
+		};
+		925084F81C7A8649002E83F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 924209EB1C7954BF00A2B378 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 924209F21C7954BF00A2B378;
+			remoteInfo = ANStepperViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		924209F31C7954BF00A2B378 /* ANStepperViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANStepperViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924209F71C7954BF00A2B378 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		924209F91C7954BF00A2B378 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		924209FA1C7954BF00A2B378 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		924209FC1C7954BF00A2B378 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		924209FD1C7954BF00A2B378 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92420A001C7954BF00A2B378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92420A021C7954BF00A2B378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92420A051C7954BF00A2B378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92420A071C7954BF00A2B378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92420A2A1C7954F100A2B378 /* ANStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ANStepperView.h; path = ANStepperView/ANStepperView.h; sourceTree = "<group>"; };
+		92420A2B1C7954F100A2B378 /* ANStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ANStepperView.m; path = ANStepperView/ANStepperView.m; sourceTree = "<group>"; };
+		925084E51C7A8524002E83F0 /* ANStepperViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANStepperViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925084E71C7A8524002E83F0 /* ANStepperViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANStepperViewExampleUITests.m; sourceTree = "<group>"; };
+		925084E91C7A8524002E83F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925084F31C7A8648002E83F0 /* ANStepperViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANStepperViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		925084F51C7A8649002E83F0 /* ANStepperViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANStepperViewExampleTests.m; sourceTree = "<group>"; };
+		925084F71C7A8649002E83F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924209F01C7954BF00A2B378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925084E21C7A8524002E83F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925084F01C7A8648002E83F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924209EA1C7954BF00A2B378 = {
+			isa = PBXGroup;
+			children = (
+				92420A291C7954CA00A2B378 /* ANStepperView */,
+				924209F51C7954BF00A2B378 /* ANStepperViewExample */,
+				925084E61C7A8524002E83F0 /* ANStepperViewExampleUITests */,
+				925084F41C7A8649002E83F0 /* ANStepperViewExampleTests */,
+				924209F41C7954BF00A2B378 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924209F41C7954BF00A2B378 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924209F31C7954BF00A2B378 /* ANStepperViewExample.app */,
+				925084E51C7A8524002E83F0 /* ANStepperViewExampleUITests.xctest */,
+				925084F31C7A8648002E83F0 /* ANStepperViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924209F51C7954BF00A2B378 /* ANStepperViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				924209F91C7954BF00A2B378 /* AppDelegate.h */,
+				924209FA1C7954BF00A2B378 /* AppDelegate.m */,
+				924209FC1C7954BF00A2B378 /* ViewController.h */,
+				924209FD1C7954BF00A2B378 /* ViewController.m */,
+				924209FF1C7954BF00A2B378 /* Main.storyboard */,
+				92420A021C7954BF00A2B378 /* Assets.xcassets */,
+				92420A041C7954BF00A2B378 /* LaunchScreen.storyboard */,
+				92420A071C7954BF00A2B378 /* Info.plist */,
+				924209F61C7954BF00A2B378 /* Supporting Files */,
+			);
+			path = ANStepperViewExample;
+			sourceTree = "<group>";
+		};
+		924209F61C7954BF00A2B378 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				924209F71C7954BF00A2B378 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92420A291C7954CA00A2B378 /* ANStepperView */ = {
+			isa = PBXGroup;
+			children = (
+				92420A2A1C7954F100A2B378 /* ANStepperView.h */,
+				92420A2B1C7954F100A2B378 /* ANStepperView.m */,
+			);
+			name = ANStepperView;
+			sourceTree = "<group>";
+		};
+		925084E61C7A8524002E83F0 /* ANStepperViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925084E71C7A8524002E83F0 /* ANStepperViewExampleUITests.m */,
+				925084E91C7A8524002E83F0 /* Info.plist */,
+			);
+			path = ANStepperViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		925084F41C7A8649002E83F0 /* ANStepperViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				925084F51C7A8649002E83F0 /* ANStepperViewExampleTests.m */,
+				925084F71C7A8649002E83F0 /* Info.plist */,
+			);
+			path = ANStepperViewExampleTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924209F21C7954BF00A2B378 /* ANStepperViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92420A201C7954BF00A2B378 /* Build configuration list for PBXNativeTarget "ANStepperViewExample" */;
+			buildPhases = (
+				924209EF1C7954BF00A2B378 /* Sources */,
+				924209F01C7954BF00A2B378 /* Frameworks */,
+				924209F11C7954BF00A2B378 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANStepperViewExample;
+			productName = ANStepperViewExample;
+			productReference = 924209F31C7954BF00A2B378 /* ANStepperViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925084E41C7A8524002E83F0 /* ANStepperViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925084EC1C7A8524002E83F0 /* Build configuration list for PBXNativeTarget "ANStepperViewExampleUITests" */;
+			buildPhases = (
+				925084E11C7A8524002E83F0 /* Sources */,
+				925084E21C7A8524002E83F0 /* Frameworks */,
+				925084E31C7A8524002E83F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925084EB1C7A8524002E83F0 /* PBXTargetDependency */,
+			);
+			name = ANStepperViewExampleUITests;
+			productName = ANStepperViewExampleUITests;
+			productReference = 925084E51C7A8524002E83F0 /* ANStepperViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		925084F21C7A8648002E83F0 /* ANStepperViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925084FA1C7A8649002E83F0 /* Build configuration list for PBXNativeTarget "ANStepperViewExampleTests" */;
+			buildPhases = (
+				925084EF1C7A8648002E83F0 /* Sources */,
+				925084F01C7A8648002E83F0 /* Frameworks */,
+				925084F11C7A8648002E83F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925084F91C7A8649002E83F0 /* PBXTargetDependency */,
+			);
+			name = ANStepperViewExampleTests;
+			productName = ANStepperViewExampleTests;
+			productReference = 925084F31C7A8648002E83F0 /* ANStepperViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924209EB1C7954BF00A2B378 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Innovation Makers";
+				TargetAttributes = {
+					924209F21C7954BF00A2B378 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					925084E41C7A8524002E83F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 924209F21C7954BF00A2B378;
+					};
+					925084F21C7A8648002E83F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 924209F21C7954BF00A2B378;
+					};
+				};
+			};
+			buildConfigurationList = 924209EE1C7954BF00A2B378 /* Build configuration list for PBXProject "ANStepperViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924209EA1C7954BF00A2B378;
+			productRefGroup = 924209F41C7954BF00A2B378 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924209F21C7954BF00A2B378 /* ANStepperViewExample */,
+				925084E41C7A8524002E83F0 /* ANStepperViewExampleUITests */,
+				925084F21C7A8648002E83F0 /* ANStepperViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924209F11C7954BF00A2B378 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92420A061C7954BF00A2B378 /* LaunchScreen.storyboard in Resources */,
+				92420A031C7954BF00A2B378 /* Assets.xcassets in Resources */,
+				92420A011C7954BF00A2B378 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925084E31C7A8524002E83F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925084F11C7A8648002E83F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924209EF1C7954BF00A2B378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924209FE1C7954BF00A2B378 /* ViewController.m in Sources */,
+				924209FB1C7954BF00A2B378 /* AppDelegate.m in Sources */,
+				924209F81C7954BF00A2B378 /* main.m in Sources */,
+				92420A2C1C7954F100A2B378 /* ANStepperView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925084E11C7A8524002E83F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925084E81C7A8524002E83F0 /* ANStepperViewExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925084EF1C7A8648002E83F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925084F61C7A8649002E83F0 /* ANStepperViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925084EB1C7A8524002E83F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924209F21C7954BF00A2B378 /* ANStepperViewExample */;
+			targetProxy = 925084EA1C7A8524002E83F0 /* PBXContainerItemProxy */;
+		};
+		925084F91C7A8649002E83F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 924209F21C7954BF00A2B378 /* ANStepperViewExample */;
+			targetProxy = 925084F81C7A8649002E83F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		924209FF1C7954BF00A2B378 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92420A001C7954BF00A2B378 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92420A041C7954BF00A2B378 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92420A051C7954BF00A2B378 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92420A1E1C7954BF00A2B378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92420A1F1C7954BF00A2B378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92420A211C7954BF00A2B378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ANStepperViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.inm.ANStepperViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92420A221C7954BF00A2B378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ANStepperViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.inm.ANStepperViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		925084ED1C7A8524002E83F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				INFOPLIST_FILE = ANStepperViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.inm.ANStepperViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ANStepperViewExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		925084EE1C7A8524002E83F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				INFOPLIST_FILE = ANStepperViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.inm.ANStepperViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ANStepperViewExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		925084FB1C7A8649002E83F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ANStepperViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.inm.ANStepperViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANStepperViewExample.app/ANStepperViewExample";
+			};
+			name = Debug;
+		};
+		925084FC1C7A8649002E83F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ANStepperViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pt.inm.ANStepperViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANStepperViewExample.app/ANStepperViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924209EE1C7954BF00A2B378 /* Build configuration list for PBXProject "ANStepperViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92420A1E1C7954BF00A2B378 /* Debug */,
+				92420A1F1C7954BF00A2B378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92420A201C7954BF00A2B378 /* Build configuration list for PBXNativeTarget "ANStepperViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92420A211C7954BF00A2B378 /* Debug */,
+				92420A221C7954BF00A2B378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925084EC1C7A8524002E83F0 /* Build configuration list for PBXNativeTarget "ANStepperViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925084ED1C7A8524002E83F0 /* Debug */,
+				925084EE1C7A8524002E83F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		925084FA1C7A8649002E83F0 /* Build configuration list for PBXNativeTarget "ANStepperViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925084FB1C7A8649002E83F0 /* Debug */,
+				925084FC1C7A8649002E83F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924209EB1C7954BF00A2B378 /* Project object */;
+}
