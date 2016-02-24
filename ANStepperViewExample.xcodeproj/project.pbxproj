@@ -521,6 +521,7 @@
 				925084EE1C7A8524002E83F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		925084FA1C7A8649002E83F0 /* Build configuration list for PBXNativeTarget "ANStepperViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +530,7 @@
 				925084FC1C7A8649002E83F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

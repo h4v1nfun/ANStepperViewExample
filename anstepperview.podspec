@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => 'git://https://github.com/h4v1nfun/ANStepperViewExample.git', :tag => 'v0.2' }
   spec.source_files = 'ANStepperView/*'
   spec.requires_arc = true
-  spec.platform = :ios
+  spec.platform     = :ios
 end
